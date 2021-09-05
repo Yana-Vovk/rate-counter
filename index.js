@@ -61,7 +61,7 @@ function submitData() {
 
     const finalSalary = actualRatingSal + actualBudgetSal + actualCtrSal + actualLeadsSal;
 
-    outputRef.value = finalSalary;
+    outputRef.textContent = finalSalary;
 
     console.log(actualRatingSal, actualBudgetSal, actualCtrSal, actualLeadsSal, finalSalary);
 }
